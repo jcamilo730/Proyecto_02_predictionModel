@@ -4,16 +4,16 @@ En el presente proyecto de machine learning se implementa un modelo de clasifica
 Dentro del dataset provisto se encuentran un train.parquet con datos para crear y entrenar el modelo, y un test.parquet que carece de los precios de las propiedades, y sobre el cual se realiza la clasificacion con el modelo propuesto.
 
 Antes de explicar el desarrollo del proyecto, una breve descripcion de las carpetas y archivos dentro del repositorio:
- - Carpeta **"Datasets_original"**: aca se encuentran la dataset provista para el proyecto (sin modificar)
-- Carpeta **"Datasets"**: aca se guardo la data ya transformada (ver punto 1)
-- Carpeta **"tests_results"**: aca se guardaron los resultados de las pruebas con distintas profundidades en el modelo de arbol de decisiones (ver punto 2)
-- Archivo **"transformation.ipynb"**: aca se realizaron las transformaciones del dataset original (ver punto 1)
-- Archivo **"treeModel.ipynb"** aca se llevaron a cabo las pruebas para el modelo de arbol de decisiones (ver punto 2)
-- Archivo **"testPrediction.ipynb"**: aca se realizo la prediccion a la data provista en test.parquet
+ - Carpeta **Datasets_original**: aca se encuentran la dataset provista para el proyecto (sin modificar)
+- Carpeta **Datasets**: aca se guardo la data ya transformada (ver punto 1)
+- Carpeta **tests_results**: aca se guardaron los resultados de las pruebas con distintas profundidades en el modelo de arbol de decisiones (ver punto 2)
+- Archivo **transformation.ipynb**: aca se realizaron las transformaciones del dataset original (ver punto 1)
+- Archivo **treeModel.ipynb** aca se llevaron a cabo las pruebas para el modelo de arbol de decisiones (ver punto 2)
+- Archivo **testPrediction.ipynb**: aca se realizo la prediccion a la data provista en test.parquet
 
 
 ## 1. Análisis de los datos y transformacion
-*Nota: el codigo de las transformaciones y la grafica descritas en este apartado se encuentra dentro del archivo* ***"transformation.ipynb"*** *y la data ya transformada se guardo en la carpeta Datasets*
+*Nota: el codigo de las transformaciones y la grafica descritas en este apartado se encuentra dentro del archivo* ***"transformation.ipynb"*** *y la data ya transformada se guardo en la carpeta "Datasets"*
 
 En el dataset se encuentran las siguientes variables que describen las propiedades en venta:
 
