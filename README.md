@@ -50,5 +50,5 @@ Para elegir una profundidad del arbol optima, Se realizaron pruebas con profundi
 
 ![enter image description here](/_src/recall_score.png)
 
-En las graficas se puede observar que los puntajes del test se separan cada vez mas con profundidades mayores a 35, por lo que se eligio esta como la profundudad para usar en el modelo de arbol de deciciones.
-Como resultado el mdelo arrojo un promedio de accuracy de  0.86, y recall de  0.85.
+En las graficas se puede observar que los puntajes del test se separan cada vez mas con profundidades mayores a 60, por lo que se eligio esta como la profundudad para usar en el modelo de arbol de deciciones.
+Como resultado el mdelo arrojo un promedio de accuracy de  0.909, y recall de  0.898.
